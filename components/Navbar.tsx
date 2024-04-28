@@ -10,7 +10,7 @@ export default function Navbar() {
     return(
         <Container maxW={"1200px"} py={5}>
             <Flex justifyContent={"space-between"} alignItems={"center"}>
-                <Text fontWeight={"bold"}>NFT Collection</Text>
+                <Text fontWeight={"bold"}>Vloei NFT Collection</Text>
                 {!address ? (
                     <ConnectWallet 
                         className={styles.walletButton}
